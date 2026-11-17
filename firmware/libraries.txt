@@ -1,0 +1,3 @@
+# Bibliotecas Arduino (o Wokwi instala automaticamente)
+PubSubClient
+LiquidCrystal I2C
