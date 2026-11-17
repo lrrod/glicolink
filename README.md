@@ -21,7 +21,7 @@ dashboard, notificações) real e executável.
 1. Abra o projeto no Wokwi (link acima) ou crie um projeto ESP32 (Arduino) e
    copie `firmware/sketch.ino`, `firmware/cgm_data.h` e `firmware/diagram.json`.
    Adicione as bibliotecas `PubSubClient` e `LiquidCrystal I2C` (Library Manager).
-2. Rode a simulação (▶). O ESP32 conecta ao Wi-Fi simulado e ao broker público
+2. Rode a simulação. O ESP32 conecta ao Wi-Fi simulado e ao broker público
    `broker.hivemq.com:1883`, e passa a publicar nos tópicos abaixo.
 3. Observe as mensagens com qualquer cliente MQTT, por exemplo:
    `mosquitto_sub -h broker.hivemq.com -t "mackenzie/cgm-iot/paciente-1006/#" -v`
