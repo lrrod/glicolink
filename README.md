@@ -14,7 +14,7 @@ substituído por um sensor virtual alimentado com dados reais de pacientes e o
 hardware roda no simulador Wokwi, com todo o restante do fluxo (broker,
 dashboard, notificações) real e executável.
 
-**Simulação online (Wokwi):** https://wokwi.com/projects/479241117092881409
+**Simulação online (Wokwi):** https://wokwi.com/projects/481518121524985857
 
 ## Como reproduzir
 
